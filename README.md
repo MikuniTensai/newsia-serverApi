@@ -7,9 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Newsia RESTful API
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Newsia adalah website penyedia berita Indonesia sebagai wadah informasi baru atau informasi mengenai sesuatu yang sedang terjadi, dibuat menggunakan framework laravel 8. Lalu apa keunggulannya? 
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
@@ -19,47 +19,65 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Laravel dapat diakses dan menyediakan alat yang diperlukan develeper.
+Database bisa menggunakan migrate atau import dari file db_newsia.sql yang sudah disediakan
 
-## Learning Laravel
+## Auth 
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Berikut adalah authentication untuk registrasi di API Newsia
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<p align=“center”>
+<a href="https://i.imgur.com/PqMB4Ou.png"><img src="https://i.imgur.com/PqMB4Ou.png" alt=“Build Status”></a>
+</br>
 
-## Laravel Sponsors
+Setelah berhasil registrasi, admin bisa melakukan login dan akan mendapatkan token dengan tipe bearir
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<p align=“center”>
+<a href="https://i.imgur.com/dgwVF08.png"><img src="https://i.imgur.com/dgwVF08.png" alt=“Build Status”></a>
+</br>
 
-### Premium Partners
+Setelah berhasil login, admin bisa mengakses profile, dengan memasukan access token yang sudah didapat
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-- **[Romega Software](https://romegasoftware.com)**
+<p align=“center”>
+<a href="https://i.imgur.com/pSJYt7j.png"><img src="https://i.imgur.com/pSJYt7j.png" alt=“Build Status”></a>
+</br>
 
-## Contributing
+Dengan access token yang didapat, admin bisa melakukan post berita terbaru
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<p align=“center”>
+<a href="https://i.imgur.com/LTPB5lJ.png"><img src="https://i.imgur.com/LTPB5lJ.png" alt=“Build Status”></a>
+</br>
 
-## Code of Conduct
+Atau bisa melakukan fetch data
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<p align=“center”>
+<a href="https://i.imgur.com/Ex3fUn6.png"><img src="https://i.imgur.com/Ex3fUn6.png" alt=“Build Status”></a>
+</br>
 
-## Security Vulnerabilities
+Maupun mencari fetch/mencari data tertentu
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<p align=“center”>
+<a href="https://i.imgur.com/B2OoEzZ.png"><img src="https://i.imgur.com/B2OoEzZ.png" alt=“Build Status”></a>
+</br>
+
+lalu admin juga bisa mengeditnya
+
+<p align=“center”>
+<a href="https://i.imgur.com/eDIxfHD.png"><img src="https://i.imgur.com/eDIxfHD.png" alt=“Build Status”></a>
+</br>
+
+dan juga menghapusnya
+
+<p align=“center”>
+<a href="https://i.imgur.com/6rE9dTT.png"><img src="https://i.imgur.com/6rE9dTT.png" alt=“Build Status”></a>
+</br>
+
+Setelah itu admin bisa melakukan logout
+
+<p align=“center”>
+<a href="https://i.imgur.com/DmfQxKf.png"><img src="https://i.imgur.com/DmfQxKf.png" alt=“Build Status”></a>
+</br>
+
 
 ## License
 
