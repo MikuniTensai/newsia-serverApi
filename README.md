@@ -78,6 +78,15 @@ Setelah itu admin bisa melakukan logout
 <a href="https://i.imgur.com/DmfQxKf.png"><img src="https://i.imgur.com/DmfQxKf.png" alt=“Build Status”></a>
 </br>
 
+Tampilan dashboard admin
+
+<p align=“center”>
+<a href="https://i.imgur.com/sNxvs8v.png"><img src="https://i.imgur.com/sNxvs8v.png" alt=“Build Status”></a>
+</br>
+
+<p align=“center”>
+<a href="https://i.imgur.com/4YXRXGU.png"><img src="https://i.imgur.com/4YXRXGU.png" alt=“Build Status”></a>
+</br>
 
 ## License
 
