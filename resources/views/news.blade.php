@@ -70,7 +70,6 @@
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
-                                @foreach ($listNews as $index => $ln)
                                 <table class="table table-hover table-lg">
                                     <thead>
                                         <tr>
@@ -82,6 +81,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                    @foreach ($listNews as $index => $ln)
                                         <tr>
                                             <td class="col-auto">
                                                 <p class=" mb-0">{{ $index+1 }}</p>
@@ -92,7 +92,7 @@
                                                 </div>
                                             </td>
                                             <td class="col-auto">
-                                                <p class="mb-0">{{ $ln->desc }}</p>
+                                                <p class="mb-0">{{ Str::limit($ln->desc, 3, '...') }}</p>
                                             </td>
                                             <td class="col-auto">
                                                 <p class="mb-0">{{ $ln->image }}</p>
@@ -102,8 +102,8 @@
                                                 <button type="button" class="btn btn-danger">Delete</button>
                                             </th>
                                         </tr>
+                                        @endforeach
                                     </tbody>
-                                    @endforeach
                                 </table>
                             </div>
                         </div>

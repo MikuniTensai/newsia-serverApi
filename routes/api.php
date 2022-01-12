@@ -22,4 +22,3 @@ Route::post('login', [App\Http\Controllers\Api\UserController::class, 'login']);
 Route::post('register', [App\Http\Controllers\Api\UserController::class, 'register']);
 
 Route::get('news', [App\Http\Controllers\Api\NewsController::class, 'index']);
-
